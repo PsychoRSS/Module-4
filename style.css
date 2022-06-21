@@ -1,0 +1,49 @@
+html{
+    background-color: gray;
+    flex-wrap: wrap;
+    /* border: solid  5px black;; */
+    padding: 10px;
+}
+
+body{
+    
+    
+    border: solid  5px  rgb(75, 63, 63);;
+    padding: 30px;
+}
+#start{
+    padding: 3px;
+    border: solid 3px;
+    border-color: red green blue yellow  ;
+    border-radius: 10%;
+    margin: 3px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-style: bold;
+
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quiz{
+    border: solid 3.5px green;
+    flex-direction: column;
+}
+
+.buttons{
+    font-size: 16px;
+    /* border-radius: 50%; */
+    display: block;
+    margin: 10px;
+}
+#question{
+    position: relative;
+    left: 600px;
+}
