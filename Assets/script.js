@@ -4,7 +4,7 @@ var button3 = document.getElementById("button-3");
 var button4 = document.getElementById("button-4");
 var start = document.getElementById("start")
 
-
+// timer
 const startingMinutes = 3;
 let time = startingMinutes * 60;
 
@@ -14,8 +14,15 @@ function updateCountdown(){
     const minutes = Math.floor(time / 60);
     let seconds = time % 60;
 
+    seconds = seconds < 3 ? '0' + seconds : seconds;
+
     countdownEL.innerHTML = `${minutes}: ${seconds}`;
     time--;
+    if (updateCountdown < 0){
+        clearInterval(updateCountdown);
+        document.getElementById("timer").innerHTML = "expired"
+    }
 }
 
-console.log(timmer);
+// questions
+var questions = ['What is a variable?', 'What is a Boolien?' ]
