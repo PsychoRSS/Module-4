@@ -11,13 +11,13 @@ body{
     border: solid  5px  rgb(75, 63, 63);;
     padding: 30px;
 }
-#start{
+/* #start{
     padding: 3px;
     border: solid 3px;
     border-color: red green blue yellow  ;
     border-radius: 10%;
-    margin: 3px;
-}
+    margin: 3px; */
+/* } */
 
 h1{
     display: flex;
